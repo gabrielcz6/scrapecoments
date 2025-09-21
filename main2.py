@@ -235,7 +235,7 @@ class BrowserPool:
         self.browsers.clear()
 
 # Pool global de browsers
-browser_pool = BrowserPool(pool_size=5, headless=False)
+browser_pool = BrowserPool(pool_size=5, headless=True)
 
 class NoDriverTikTokScraper:
     """Scraper de TikTok usando NoDriver con máxima eficiencia"""
