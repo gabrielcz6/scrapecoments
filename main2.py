@@ -93,7 +93,8 @@ class BrowserPool:
         # Crear browser con argumentos pasados directamente
         browser = await uc.start(
             headless=self.headless,
-            browser_args=browser_args
+            browser_args=browser_args,
+            sandbox=False
         )
         
         # Scripts anti-detección adicionales
