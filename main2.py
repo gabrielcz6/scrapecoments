@@ -42,7 +42,7 @@ class BrowserPool:
         """Inicializar pool de browsers"""
         if self.initialized:
             return
-            
+         #   
         logger.info(f"Inicializando pool de {self.pool_size} browsers NoDriver...")
         
         for i in range(self.pool_size):
